@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <script>
+      console.clear();
+      // --------------------------------------------------------- //
+      // ARRAY 1
+      // --------------------------------------------------------- //
+      // Array
+      const liste = [0, 0, 0, 0, 0, 0];
+      liste[0] = "Apfel";
+      liste[1] = " Die welt ist Rund ";
+
+      liste[2] = " Trick 17.5 ";
+      liste[3] = { a: 12, b: 30, c: -9 };
+      liste[4] = [8, 88, 888, -88, -8];
+      liste[5] = " hallo " + " Leute ";
+      liste[6] = {};
+      liste[7] = true;
+      liste[8] = 5 * 3.25;
+      liste[9] = false;
+      liste[10] = " köln ";
+
+      console.log(liste);
+      console.log(liste[0], liste[4], liste[8], liste[2]);
+
+      //  //
+      // JSON-Objekt
+      // --------------------------------------------------------- //
+      const liste2 = {
+        frucht: "Apfel",
+        tatsache: " Die welt ist Rund ",
+        derscheintruegt: " Trick 17.5 ",
+        blabla: { a: 12, b: 30, c: -9 },
+        allegutendingsind: [8, 88, 888, -88, -8],
+        kombi: " hallo " + " Leute ",
+        leer: {},
+        status: true,
+        multi: 5 * 3.25,
+        alternative: false,
+        stadt: " köln "
+      };
+      console.log(liste2);
+      console.log(liste2.kombi, liste2.tatsache, liste2.frucht, liste2.blabla);
+    </script>
+  </body>
+</html>
